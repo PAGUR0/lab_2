@@ -13,7 +13,7 @@ public class Main {
             System.out.println("Модуль x должен быть меньше 1");
         }
         else{
-        double arth = x;
+        double arth = 0;
         for(int i = 0; i <= n; i++) {
             arth = (arth + (Math.pow(x, (2 * i + 1)) / (2 * i + 1)));
         }
